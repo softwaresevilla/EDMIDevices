@@ -1,0 +1,159 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/joseluisferronriquelme/Documents/code/projects/edmi/EDMIDevices/EDMIDevicesConsole/EDMIDevicesConsole.csproj": {}
+  },
+  "projects": {
+    "/Users/joseluisferronriquelme/Documents/code/projects/edmi/EDMIDevices/EDMIDevices/EDMIDevicesAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/joseluisferronriquelme/Documents/code/projects/edmi/EDMIDevices/EDMIDevices/EDMIDevicesAPI.csproj",
+        "projectName": "EDMIDevicesAPI",
+        "projectPath": "/Users/joseluisferronriquelme/Documents/code/projects/edmi/EDMIDevices/EDMIDevices/EDMIDevicesAPI.csproj",
+        "packagesPath": "/Users/joseluisferronriquelme/.nuget/packages/",
+        "outputPath": "/Users/joseluisferronriquelme/Documents/code/projects/edmi/EDMIDevices/EDMIDevices/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/joseluisferronriquelme/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.3.0, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.2.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.14.1, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.2.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-x64",
+              "version": "[5.0.12, 5.0.12]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/joseluisferronriquelme/Documents/code/projects/edmi/EDMIDevices/EDMIDevicesConsole/EDMIDevicesConsole.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/joseluisferronriquelme/Documents/code/projects/edmi/EDMIDevices/EDMIDevicesConsole/EDMIDevicesConsole.csproj",
+        "projectName": "EDMIDevicesConsole",
+        "projectPath": "/Users/joseluisferronriquelme/Documents/code/projects/edmi/EDMIDevices/EDMIDevicesConsole/EDMIDevicesConsole.csproj",
+        "packagesPath": "/Users/joseluisferronriquelme/.nuget/packages/",
+        "outputPath": "/Users/joseluisferronriquelme/Documents/code/projects/edmi/EDMIDevices/EDMIDevicesConsole/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/joseluisferronriquelme/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/joseluisferronriquelme/Documents/code/projects/edmi/EDMIDevices/EDMIDevices/EDMIDevicesAPI.csproj": {
+                "projectPath": "/Users/joseluisferronriquelme/Documents/code/projects/edmi/EDMIDevices/EDMIDevices/EDMIDevicesAPI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.2.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-x64",
+              "version": "[5.0.12, 5.0.12]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
